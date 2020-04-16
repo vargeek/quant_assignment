@@ -88,49 +88,49 @@ void MdSpi::OnRspSubMarketData(CThostFtdcSpecificInstrumentField *pSpecificInstr
 ///深度行情通知
 void MdSpi::OnRtnDepthMarketData(CThostFtdcDepthMarketDataField *pData) {
     _md << pData->TradingDay
-        << ", " << pData->InstrumentID
-        << ", " << pData->ExchangeID
-        << ", " << pData->ExchangeInstID
-        << ", " << pData->LastPrice
-        << ", " << pData->PreSettlementPrice
-        << ", " << pData->PreClosePrice
-        << ", " << pData->PreOpenInterest
-        << ", " << pData->OpenPrice
-        << ", " << pData->HighestPrice
-        << ", " << pData->LowestPrice
-        << ", " << pData->Volume
-        << ", " << pData->Turnover
-        << ", " << pData->OpenInterest
-        << ", " << pData->ClosePrice
-        << ", " << pData->SettlementPrice
-        << ", " << pData->UpperLimitPrice
-        << ", " << pData->LowerLimitPrice
-        << ", " << pData->PreDelta
-        << ", " << pData->CurrDelta
-        << ", " << pData->UpdateTime
-        << ", " << pData->UpdateMillisec
-        << ", " << pData->BidPrice1
-        << ", " << pData->BidVolume1
-        << ", " << pData->AskPrice1
-        << ", " << pData->AskVolume1
-        << ", " << pData->BidPrice2
-        << ", " << pData->BidVolume2
-        << ", " << pData->AskPrice2
-        << ", " << pData->AskVolume2
-        << ", " << pData->BidPrice3
-        << ", " << pData->BidVolume3
-        << ", " << pData->AskPrice3
-        << ", " << pData->AskVolume3
-        << ", " << pData->BidPrice4
-        << ", " << pData->BidVolume4
-        << ", " << pData->AskPrice4
-        << ", " << pData->AskVolume4
-        << ", " << pData->BidPrice5
-        << ", " << pData->BidVolume5
-        << ", " << pData->AskPrice5
-        << ", " << pData->AskVolume5
-        << ", " << pData->AveragePrice
-        << ", " << pData->ActionDay << std::endl;
+        << "," << pData->InstrumentID
+        << "," << pData->ExchangeID
+        << "," << pData->ExchangeInstID
+        << "," << pData->LastPrice
+        << "," << pData->PreSettlementPrice
+        << "," << pData->PreClosePrice
+        << "," << pData->PreOpenInterest
+        << "," << pData->OpenPrice
+        << "," << pData->HighestPrice
+        << "," << pData->LowestPrice
+        << "," << pData->Volume
+        << "," << pData->Turnover
+        << "," << pData->OpenInterest
+        << "," << pData->ClosePrice
+        << "," << pData->SettlementPrice
+        << "," << pData->UpperLimitPrice
+        << "," << pData->LowerLimitPrice
+        << "," << pData->PreDelta
+        << "," << pData->CurrDelta
+        << "," << pData->UpdateTime
+        << "," << pData->UpdateMillisec
+        << "," << pData->BidPrice1
+        << "," << pData->BidVolume1
+        << "," << pData->AskPrice1
+        << "," << pData->AskVolume1
+        << "," << pData->BidPrice2
+        << "," << pData->BidVolume2
+        << "," << pData->AskPrice2
+        << "," << pData->AskVolume2
+        << "," << pData->BidPrice3
+        << "," << pData->BidVolume3
+        << "," << pData->AskPrice3
+        << "," << pData->AskVolume3
+        << "," << pData->BidPrice4
+        << "," << pData->BidVolume4
+        << "," << pData->AskPrice4
+        << "," << pData->AskVolume4
+        << "," << pData->BidPrice5
+        << "," << pData->BidVolume5
+        << "," << pData->AskPrice5
+        << "," << pData->AskVolume5
+        << "," << pData->AveragePrice
+        << "," << pData->ActionDay << std::endl;
 
 }
 
