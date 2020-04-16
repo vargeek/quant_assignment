@@ -34,3 +34,4 @@
 !vendor/simnow/*.so
 week2/config
 week2/build
+/data/
