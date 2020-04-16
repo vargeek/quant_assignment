@@ -1,3 +1,6 @@
 [submodule "week2/vendor/yaml-cpp"]
 	path = week2/vendor/yaml-cpp
 	url = https://github.com/jbeder/yaml-cpp.git
+[submodule "week2/vendor/spdlog"]
+	path = week2/vendor/spdlog
+	url = https://github.com/gabime/spdlog.git
