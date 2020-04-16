@@ -1,0 +1,3 @@
+[submodule "week2/vendor/yaml-cpp"]
+	path = week2/vendor/yaml-cpp
+	url = https://github.com/jbeder/yaml-cpp.git
