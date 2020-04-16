@@ -35,3 +35,5 @@
 week2/config
 week2/build
 /data/
+
+.DS_Store
