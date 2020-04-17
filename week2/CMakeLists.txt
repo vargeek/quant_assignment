@@ -25,11 +25,11 @@ target_include_directories(${PROJ_NAME} PUBLIC "${SRC_DIR}")
 
 target_compile_definitions(${PROJ_NAME} PUBLIC "-DDEBUG")
 
-set(CONFIG_DIR config)
 add_custom_command(TARGET ${PROJ_NAME}
     POST_BUILD
     COMMAND mkdir data
-    COMMAND ${CMAKE_COMMAND} -E copy_directory "${CMAKE_CURRENT_SOURCE_DIR}/${CONFIG_DIR}" "${PROJECT_BINARY_DIR}/${CONFIG_DIR}"
+    COMMAND ${CMAKE_COMMAND} -E copy_directory "${CMAKE_CURRENT_SOURCE_DIR}/config" "${PROJECT_BINARY_DIR}/config"
+    COMMAND ${CMAKE_COMMAND} -E copy_directory "${CMAKE_CURRENT_SOURCE_DIR}/scripts" "${PROJECT_BINARY_DIR}/scripts"
 )
 
 # set(CONFIG_DIR config)

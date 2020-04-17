@@ -1,6 +1,7 @@
 #include "MdSpi.h"
 #include "common/common.h"
 #include <assert.h>
+#include <iomanip>
 
 using namespace quant;
 using namespace std;
@@ -87,7 +88,8 @@ void MdSpi::OnRspSubMarketData(CThostFtdcSpecificInstrumentField *pSpecificInstr
 
 ///深度行情通知
 void MdSpi::OnRtnDepthMarketData(CThostFtdcDepthMarketDataField *pData) {
-    _md << pData->TradingDay
+    _md << setprecision(20)
+        << pData->TradingDay
         << "," << pData->InstrumentID
         << "," << pData->ExchangeID
         << "," << pData->ExchangeInstID
