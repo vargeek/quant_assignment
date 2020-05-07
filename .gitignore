@@ -40,3 +40,4 @@ week2/data
 .DS_Store
 /tmp
 .vscode
+__pycache__
