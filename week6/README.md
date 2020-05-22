@@ -1,0 +1,5 @@
+# week6
+
+- [ ] 处理期权合约tick数据，合成分钟数据
+- [ ] 完成Europeanoption.py中相关implied vol 和greeks的计算，之后向量化相应的计算
+- [ ] 结合510050minute.csv中提供的数据，批量计算历史分钟数据的greeks和iv，保存相应结果。
