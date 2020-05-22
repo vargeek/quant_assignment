@@ -1,6 +1,6 @@
 # week6
 
-金融方面零基础，所以本期作业难度有点大。。。
+金融方面零基础，所以感觉本期作业难度有点大。。。
 
 - [x] 处理期权合约tick数据，合成分钟数据
     [main.ipynb](./main.ipynb), [raw_to_tick.py](./raw_to_tick.py)
