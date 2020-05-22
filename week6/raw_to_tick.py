@@ -1,7 +1,6 @@
 # %%
 import pandas as pd
 import datetime
-import functools
 
 # %%
 def get_trade_time():
@@ -50,10 +49,5 @@ def tick2min(df):
 def raw2min(df):
     df = raw2tick(df)
     df = tick2min(df)
+    return df
 
-df = pd.read_csv('./OP10000969.csv', encoding='gb2312')
-
-df = raw2tick(df)
-df
-
-# %%
